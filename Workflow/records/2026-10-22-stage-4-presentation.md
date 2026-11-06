@@ -645,6 +645,31 @@ Images in place (2026-10-22): the title image, G1–G10 and the reused skripta i
 - **Validation.** `R/render_skripta.R` exit 0, HTML and Typst PDF. Changed figures re-extracted from the HTML and inspected. The PDF pages have not been inspected visually.
 - **Still open.** The glossary placeholders (`nahodny-efekt`, `smiseny-model`, `blok`, `marginalni-r2` and others) need `slovnik` entries. The canonical deck render is still blocked by DeckTape timing out on any deck.
 
+## Paused for the L11/L12 swap (Ondřej Mottl, 2026-11-06)
+
+- **Reason.** The 2026/27 zápočtový týden (4.–10. 1. 2027) falls in the week of the last lecture. The lessons are therefore swapped: GLM becomes L11 (lecture 14. 12., with a practical) and this hierarchical-data lesson becomes L12 (lecture 4. 1. 2027, lecture only, no exercise). The decision and its rationale are in `_internal/obecne/nove/plan_zapocet_a_prohozeni_L11_L12_2026-27.md`. This repository is renamed to `L12`, and a new `L11` is created from `_L-template` for the GLM lesson.
+- **State at the pause.**
+  - The presentation story map is at revision 3, approved.
+  - The deck is drafted with 71 slides, and independent review round 1 and author review batches 1–4 are resolved.
+  - The skripta visuals have been revised.
+- **Still open.**
+  - The canonical render and PDF export are blocked by DeckTape.
+  - The `slovnik` entries for the glossary placeholders are missing.
+  - The deck review findings listed under revision 3 are unresolved.
+  - The Stage 5 human review gate has not started.
+- **PollsLive.**
+  - `pollslive/quiz.json` (lesson `L11`, retrieves L10) and its `l10-*` evidence assets now belong to the GLM L11. They move there unchanged, and the registered poll `cmvkmcg3c004hld01so25kthb` is re-synced from the new `L11` repository.
+  - Do not sync this quiz again from this repository.
+  - On resumption, replace the opening retrieval block with a new L12 quiz that retrieves the GLM lesson.
+- **On resumption (after the GLM release on 14. 12.).**
+  1. Renumber the lesson on a separate branch from `main`. This covers:
+     - the project file, release manifest, README and titles;
+     - dropping `Exercises/cviceni.R`;
+     - turning the forward reference to GLM into a backward one;
+     - revising the fitting outcome to recognition and interpretation;
+     - prior knowledge that now includes GLM.
+  2. Merge `main` into this branch and continue Stage 4 here, with the branch renamed to `lesson/l12-presentation`.
+
 ## Visual workflow checks
 
 - Story map completed and explicitly human-approved before full slide copy: [x] (Ondřej Mottl, 2026-10-22, revision 2)
