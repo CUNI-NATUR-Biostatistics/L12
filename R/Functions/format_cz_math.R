@@ -1,4 +1,4 @@
-# CUNI-NATUR-Biostatistics L11 — Czech number formatting for equations, 2026.
+# CUNI-NATUR-Biostatistics L12 — Czech number formatting for equations, 2026.
 # Format a number with a decimal comma inside LaTeX math -----
 # In math mode both MathJax (HTML) and Typst (PDF) treat a comma as
 #    punctuation followed by a space, so the whole number, including a
