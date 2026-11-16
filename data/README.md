@@ -1,4 +1,4 @@
-# Výuková data L11
+# Výuková data L12
 
 Soubor `zabky_nadrze.csv` obsahuje 485 mladých žab (žabek) severoamerického druhu *Lithobates blairi*, které v pokusných nádržích dokončily metamorfózu. Jeden řádek představuje jednu žabku. Žabky pocházejí z 16 nádrží o objemu 1 000 l, do každé z nich bylo na začátku pokusu vysazeno 50 pulců. Osm nádrží před pokusem vyschlo a bylo znovu napuštěno, osm nevyschlo. Úprava se tedy týká celých nádrží, nikoli jednotlivých žabek.
 

@@ -1,8 +1,8 @@
-# L11 — Hierarchická data a náhodné efekty
+# L12 — Hierarchická data a náhodné efekty
 
 **Kolik nezávislých odpovědí dává 485 žabek z 16 pokusných nádrží?**
 
-Tento repozitář obsahuje jedenáctou lekci kurzu [Biostatistika a plánování ekologických pokusů (MB120P163)](https://cuni-natur-biostatistics.github.io/) vyučovaného na Přírodovědecké fakultě Univerzity Karlovy.
+Tento repozitář obsahuje dvanáctou lekci kurzu [Biostatistika a plánování ekologických pokusů (MB120P163)](https://cuni-natur-biostatistics.github.io/) vyučovaného na Přírodovědecké fakultě Univerzity Karlovy.
 
 Úplný přehled kurzu, rozvrh, pravidla hodnocení a materiály ostatních lekcí najdete na [veřejném HUBu kurzu](https://cuni-natur-biostatistics.github.io/).
 
@@ -28,14 +28,14 @@ Po prostudování této lekce dokážete:
 
 ## Materiály pro studenty
 
-Následující odkazy vedou vždy na nejnovější schválené vydání L11. Rozpracovaná verze ve větvi `main` může být novější, ale není určena jako závazná studijní verze.
+Následující odkazy vedou vždy na nejnovější schválené vydání L12. Rozpracovaná verze ve větvi `main` může být novější, ale není určena jako závazná studijní verze.
 
 | Materiál | Online verze | PDF |
 | --- | --- | --- |
-| Skripta | [Číst online](https://cuni-natur-biostatistics.github.io/L11/current/learning/) | [Stáhnout PDF](https://cuni-natur-biostatistics.github.io/L11/current/learning/skripta.pdf) |
-| Prezentace | [Otevřít slidy](https://cuni-natur-biostatistics.github.io/L11/current/presentation/) | [Stáhnout PDF](https://cuni-natur-biostatistics.github.io/L11/current/presentation/presentation.pdf) |
+| Skripta | [Číst online](https://cuni-natur-biostatistics.github.io/L12/current/learning/) | [Stáhnout PDF](https://cuni-natur-biostatistics.github.io/L12/current/learning/skripta.pdf) |
+| Prezentace | [Otevřít slidy](https://cuni-natur-biostatistics.github.io/L12/current/presentation/) | [Stáhnout PDF](https://cuni-natur-biostatistics.github.io/L12/current/presentation/presentation.pdf) |
 
-Pro navazující praktické cvičení je připraven [R skript ke stažení](https://cuni-natur-biostatistics.github.io/L11/current/code/cviceni.R). Skript obsahuje úlohy a kód, se kterými budete pracovat během praktika.
+Pro navazující praktické cvičení je připraven [R skript ke stažení](https://cuni-natur-biostatistics.github.io/L12/current/code/cviceni.R). Skript obsahuje úlohy a kód, se kterými budete pracovat během praktika.
 
 - [HUB kurzu](https://cuni-natur-biostatistics.github.io/) je hlavní vstup ke všem veřejným studijním materiálům.
 - [Moodle kurzu](https://dl2.cuni.cz/course/view.php?id=106) slouží zapsaným studentům pro oznámení, testy, zadání, odevzdávání a individuální výsledky.
@@ -55,7 +55,7 @@ Pro navazující praktické cvičení je připraven [R skript ke stažení](http
 
 ### Reprodukovatelné prostředí
 
-Repozitář používá `renv`. Po klonování otevřete `L11.Rproj` a v čerstvé R relaci spusťte:
+Repozitář používá `renv`. Po klonování otevřete `L12.Rproj` a v čerstvé R relaci spusťte:
 
 ```r
 renv::restore()
@@ -72,7 +72,7 @@ Samostatně lze použít `R/render_skripta.R` nebo `R/render_presentation.R`. P�
 
 ### Publikování
 
-`website-release.yml` je explicitní seznam souborů povolených ve veřejném balíčku. Větev `main` vytváří veřejný náhled, zatímco stabilní tag `L11-vMAJOR.MINOR.PATCH-YYYYMMDD` vytváří neměnné vydání a aktualizuje cestu `/L11/current/`.
+`website-release.yml` je explicitní seznam souborů povolených ve veřejném balíčku. Větev `main` vytváří veřejný náhled, zatímco stabilní tag `L12-vMAJOR.MINOR.PATCH-YYYYMMDD` vytváří neměnné vydání a aktualizuje cestu `/L12/current/`.
 
 Podrobný publikační postup je v [`WEBSITE_RELEASES.md`](WEBSITE_RELEASES.md). Postup tvorby a kontroly lekce je v [`Workflow/README.md`](Workflow/README.md).
 

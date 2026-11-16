@@ -1,4 +1,4 @@
-# CUNI-NATUR-Biostatistics L11 — Czech number formatting, 2026.
+# CUNI-NATUR-Biostatistics L12 — Czech number formatting, 2026.
 # Format a number with a decimal comma -----
 # Used for inline values in the learning materials, so that every printed
 #   number comes from its source object in Czech notation.
